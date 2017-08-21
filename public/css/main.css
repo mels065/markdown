@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+h1 {
+  font-family: "Open Sans Condensed", sans-serif; }
+
+main {
+  width: 80%; }
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 20px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className="row">
         <MarkdownInput handleChange={this.handleChange.bind(this)} />
-        <MarkdownViewer markdown={this.state.input} />
+        <MarkdownViewer input={this.state.input} />
       </div>
     );
   }

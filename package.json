@@ -2,14 +2,15 @@
   "name": "markdown-previewer",
   "version": "1.0.0",
   "description": "A project from freeCodeCamp",
-  "main": "./src/index.js",
+  "main": "./src/index.jsx",
   "scripts": {
-    "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "dev": "./node_modules/.bin/webpack -d --watch",
+    "build": "./node_modules/.bin/webpack -p"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "marked": "^0.3.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.5.5"

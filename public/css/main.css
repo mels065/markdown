@@ -1,13 +1,69 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+.row {
+  display: flex; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
 header h1 {
   font-family: "Open Sans Condensed", sans-serif; }
 
 main {
+  margin: 0 auto;
   width: 80%; }
 
-footer .copyright {
-  position: absolute;
-  bottom: 0;
-  right: 20px; }
+footer {
+  font-family: "Open Sans Condensed", sans-serif; }
+  footer .copyright {
+    position: absolute;
+    bottom: 0;
+    right: 20px; }
+
+.markdown-input {
+  display: block;
+  margin: 0 auto;
+  height: 800px;
+  width: 80%; }
+
+.markdown-viewer {
+  background-color: #CCCCCC;
+  height: 800px;
+  margin: 0 auto;
+  overflow: auto;
+  overflow-wrap: break-word;
+  width: 80%; }
 
 /*# sourceMappingURL=main.css.map */

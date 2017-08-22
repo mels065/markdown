@@ -12,7 +12,7 @@ class MarkdownViewer extends React.Component {
 
   render() {
     return (
-      <div className="col-xs-6">
+      <div className="col-6">
         <div className="markdown-viewer"
              dangerouslySetInnerHTML={this.createMarkup()}></div>
       </div>

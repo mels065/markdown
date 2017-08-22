@@ -6,11 +6,15 @@ class MarkdownViewer extends React.Component {
     super(props);
   }
 
+  createMarkup() {
+    return {__html: marked(this.props.input)};
+  }
+
   render() {
-    let markdown = marked(this.props.input);
     return (
       <div className="col-xs-6">
-        <div className="markdown-viewer">{markdown}</div>
+        <div className="markdown-viewer"
+             dangerouslySetInnerHTML={this.createMarkup()}></div>
       </div>
     );
   }

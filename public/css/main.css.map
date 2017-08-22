@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,8EAAsE;ACA9E,EAAG;EACD,WAAW,EDCE,iCAAiC;;AEFhD,IAAK;EACH,KAAK,EAAE,GAAG;;ACAV,iBAAW;EACT,QAAQ,EAAE,QAAQ;EAElB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI",
+"mappings": "AAAQ,8EAAsE;ACC5E,SAAG;EACD,WAAW,EDAA,iCAAiC;;AEFhD,IAAK;EACH,KAAK,EAAE,GAAG;;ACAV,iBAAW;EACT,QAAQ,EAAE,QAAQ;EAElB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI",
 "sources": ["sass/modules/_typography.scss","sass/partials/_header.scss","sass/partials/_base.scss","sass/partials/_footer.scss"],
 "names": [],
 "file": "main.css"

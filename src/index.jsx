@@ -1,7 +1,7 @@
-import React from "react";
-import {render} from "react-dom";
-import MarkdownInput from "./components/MarkdownInput.jsx";
-import MarkdownViewer from "./components/MarkdownViewer.jsx";
+import React from 'react';
+import {render} from 'react-dom';
+import MarkdownInput from './components/MarkdownInput.jsx';
+import MarkdownViewer from './components/MarkdownViewer.jsx';
 
 class App extends React.Component {
   constructor(props) {

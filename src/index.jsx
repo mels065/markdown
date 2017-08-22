@@ -1,6 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 import MarkdownInput from "./components/MarkdownInput.jsx";
+import MarkdownViewer from "./components/MarkdownViewer.jsx";
 
 class App extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class App extends React.Component {
     return (
       <div className="row">
         <MarkdownInput handleChange={this.handleChange.bind(this)} />
+        <MarkdownViewer markdown={this.state.input} />
       </div>
     );
   }

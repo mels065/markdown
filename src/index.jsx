@@ -1,5 +1,6 @@
 import React from "react";
 import {render} from "react-dom";
+import MarkdownInput from "./components/MarkdownInput.jsx";
 
 class App extends React.Component {
   constructor(props) {
@@ -9,10 +10,16 @@ class App extends React.Component {
       input: ""
     };
   }
-
+  handleChange(event) {
+    this.setState( {
+      input: event.target.value
+    } );
+  }
   render() {
     return (
-      <div class="row"></div>
+      <div className="row">
+        <MarkdownInput handleChange={this.handleChange.bind(this)} />
+      </div>
     );
   }
 }

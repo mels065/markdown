@@ -59,7 +59,8 @@ footer {
   width: 80%; }
 
 .markdown-viewer {
-  background-color: #CCCCCC;
+  background-color: #EEE;
+  border: 5px solid #CCC;
   height: 800px;
   margin: 0 auto;
   overflow: auto;

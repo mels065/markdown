@@ -1,5 +1,6 @@
 .markdown-viewer {
-  background-color: $viewer-color;
+  background-color: $viewer-bg-color;
+  border: 5px solid $viewer-border-color;
   height: $tall-height;
   margin: $center;
   overflow: auto;
